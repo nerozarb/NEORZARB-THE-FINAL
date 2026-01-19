@@ -6,6 +6,7 @@ import Portfolio from './components/Portfolio';
 import Process from './components/Process';
 import Pricing from './components/Pricing';
 import FAQ from './components/FAQ';
+import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 
 const App: React.FC = () => {
@@ -18,6 +19,7 @@ const App: React.FC = () => {
       <Process />
       <Pricing />
       <FAQ />
+      <Testimonials />
       <Footer />
     </main>
   );
