@@ -5,8 +5,8 @@ const Process: React.FC = () => {
     <section className="border-b border-grid-line py-20 px-6 lg:px-12" id="protocol">
       <div className="flex flex-col gap-16">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-grid-line pb-6">
-          <h2 className="text-4xl md:text-5xl font-black uppercase tracking-tightest">How We Work</h2>
-          <p className="font-mono text-primary text-sm uppercase tracking-widest mb-2">[ The AI System ]</p>
+          <h2 className="text-4xl md:text-5xl font-black uppercase tracking-tightest">The 60-Day Protocol</h2>
+          <p className="font-mono text-primary text-sm uppercase tracking-widest mb-2">[ The System ]</p>
         </div>
 
         <div className="relative grid grid-cols-1 md:grid-cols-3 gap-12 pt-8">
@@ -21,10 +21,10 @@ const Process: React.FC = () => {
             </div>
             <div>
               <div className="flex justify-between items-baseline mb-3">
-                <h3 className="text-2xl font-bold uppercase">Audit</h3>
-                <span className="text-xs font-mono text-primary">Day 1-7</span>
+                <h3 className="text-2xl font-bold uppercase">The Facelift</h3>
+                <span className="text-xs font-mono text-primary">Day 1-15</span>
               </div>
-              <p className="text-gray-400 text-sm leading-relaxed">We analyze your brand gap. <span className="text-gray-300 font-medium">Hum dekhte hain paisa kahan waste ho raha hai.</span></p>
+              <p className="text-gray-400 text-sm leading-relaxed">We clean the brand. Logo, colors, bio, and the "Conversion Asset" (High-converting Landing Page).</p>
             </div>
           </div>
 
@@ -35,10 +35,10 @@ const Process: React.FC = () => {
             </div>
             <div>
               <div className="flex justify-between items-baseline mb-3">
-                <h3 className="text-2xl font-bold uppercase">Build</h3>
-                <span className="text-xs font-mono text-primary">Day 7-30</span>
+                <h3 className="text-2xl font-bold uppercase">Production</h3>
+                <span className="text-xs font-mono text-primary">Day 15-45</span>
               </div>
-              <p className="text-gray-400 text-sm leading-relaxed">We rebuild your visual identity, shoot the content, and set up the Ad Account.</p>
+              <p className="text-gray-400 text-sm leading-relaxed">Content Aggression. We produce 30 short-form videos and static assets to populate the engine.</p>
             </div>
           </div>
 
@@ -49,10 +49,10 @@ const Process: React.FC = () => {
             </div>
             <div>
               <div className="flex justify-between items-baseline mb-3">
-                <h3 className="text-2xl font-bold uppercase">Scale</h3>
-                <span className="text-xs font-mono text-primary">Day 30+</span>
+                <h3 className="text-2xl font-bold uppercase">Launch</h3>
+                <span className="text-xs font-mono text-primary">Day 45-60</span>
               </div>
-              <p className="text-gray-400 text-sm leading-relaxed">We launch the Ads. We turn on the Automation. Leads start flowing.</p>
+              <p className="text-gray-400 text-sm leading-relaxed">The Ad Engine turns on. WhatsApp automation activates. The system goes live.</p>
             </div>
           </div>
         </div>

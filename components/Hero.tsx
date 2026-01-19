@@ -21,16 +21,16 @@ const Hero: React.FC = () => {
         <h2 className="text-lg md:text-xl text-gray-300 font-normal leading-relaxed max-w-2xl mb-10">
           Stop hiring scattered freelancers. <br className="hidden md:block"/>
           <span className="text-primary font-medium">Hum poora digital system banate hain.</span><br />
-          Branding, Content, Ads, and Automation—all under one roof.
+          We build the machine in 60 days. You just drive it.
         </h2>
 
         <div className="flex flex-col sm:flex-row items-center gap-6">
           <a href="#offers" className="group relative flex items-center justify-center px-8 py-4 bg-primary text-white text-sm font-bold uppercase tracking-wider rounded-full shadow-gloss-green hover:brightness-110 transition-all duration-300 transform hover:scale-105">
-            <span className="mr-2">Start My Growth Sprint</span>
+            <span className="mr-2">Start The 60-Day Sprint</span>
             <span className="material-symbols-outlined text-lg group-hover:translate-x-1 transition-transform">bolt</span>
           </a>
           <a href="#work" className="text-sm font-bold uppercase tracking-widest hover:text-primary transition-colors flex items-center gap-2 group">
-            See The Work
+            See The Output
             <span className="material-symbols-outlined text-lg group-hover:translate-x-1 transition-transform">arrow_forward</span>
           </a>
         </div>

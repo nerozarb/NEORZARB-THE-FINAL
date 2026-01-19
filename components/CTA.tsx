@@ -17,13 +17,13 @@ const CTA: React.FC = () => {
             
             <div className="flex flex-col gap-4 text-center md:text-left z-10">
               <span className="inline-block px-3 py-1 bg-primary/20 text-primary text-xs font-bold tracking-widest uppercase w-fit mx-auto md:mx-0 rounded">Limited Availability</span>
-              <h2 className="text-4xl md:text-6xl font-black uppercase tracking-tightest leading-none">60-Day Sprint</h2>
-              <p className="text-gray-400 max-w-md">Two months to overhaul your digital infrastructure. Fixed scope, fixed price, guaranteed velocity.</p>
+              <h2 className="text-4xl md:text-6xl font-black uppercase tracking-tightest leading-none">The Sprint</h2>
+              <p className="text-gray-400 max-w-md">Two months to overhaul your digital infrastructure. Fixed scope. Fixed price. Guaranteed velocity.</p>
             </div>
             
             <div className="z-10">
               <button className="relative flex items-center justify-center w-full md:w-auto px-10 py-5 bg-primary text-white text-base font-bold uppercase tracking-wider rounded-full shadow-gloss-green hover:brightness-110 transition-all duration-300 whitespace-nowrap">
-                Secure This Sprint
+                Secure My Sprint
               </button>
               <p className="text-center text-xs text-gray-500 mt-4 uppercase tracking-widest">Only 2 Slots Remaining</p>
             </div>
