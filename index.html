@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEROZARB • Institutional Authority V2</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    
+    <!-- Tailwind Configuration -->
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#3f6a24",
+              "onyx": "#0A0A0A",
+              "grid-line": "#333333",
+              "text-dim": "#888888",
+            },
+            fontFamily: {
+              "display": ["Inter", "sans-serif"],
+              "body": ["Inter", "sans-serif"],
+              "noto-sans": ["Noto Sans", "sans-serif"],
+            },
+            boxShadow: {
+              "gloss-green": "inset 0 1px 1px 0 rgba(255, 255, 255, 0.3), 0 0 15px rgba(63, 106, 36, 0.4)",
+              "glow-card": "0 0 30px rgba(63, 106, 36, 0.15)",
+            },
+            letterSpacing: {
+              "tightest": "-0.05em",
+              "widest-2": "0.2em",
+            }
+          },
+        },
+      }
+    </script>
+    
+    <!-- Custom CSS for Scrollbars & Utilities -->
+    <style>
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0A0A0A; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #333; 
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #444; 
+      }
+      
+      .bg-grid-pattern {
+        background-size: 40px 40px;
+        background-image: linear-gradient(to right, #333333 1px, transparent 1px),
+                          linear-gradient(to bottom, #333333 1px, transparent 1px);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3"
+  }
+}
+</script>
+</head>
+  <body class="bg-onyx text-white font-display overflow-x-hidden antialiased selection:bg-primary selection:text-white">
+    <div id="root"></div>
+  </body>
+</html>
